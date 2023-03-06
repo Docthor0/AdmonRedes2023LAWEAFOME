@@ -9,12 +9,12 @@
 
     <Button
         android:id="@+id/botonAgregarConfigAC"
-        android:layout_width="152dp"
+        android:layout_width="198dp"
         android:layout_height="69dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#0094FE"
-        android:text="Agregar artículo"
+        android:text="Agregar configuracion"
         android:textSize="18dp"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
