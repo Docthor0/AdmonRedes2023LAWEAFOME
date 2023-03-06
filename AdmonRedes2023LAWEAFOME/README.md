@@ -9,7 +9,7 @@ Lista de Personas que trabajaron en el proyecto y en que area trabajo.
 -Ayuda en otras areas de programacion y diseño de areas varias.
 -Diseño de interfaces y recicler view.
 
->Guillen Servin Jesus Omar
+>Omar
 -Diseño de estilos.
 -Creacion de interfaces para el apartado de inventarios, login, registrarse y menus.
 -Creacion, diseño y programacion basica de la pantalla configuracion.
@@ -24,12 +24,12 @@ Lista de Personas que trabajaron en el proyecto y en que area trabajo.
 -Ayuda en la creacion de estilos.
 -Ayuda en el diseño de interfaces.
 
->Cesar
+>Maciel Ordaz Cesar Leonardo
 -Programacion de la pantalla Planeacion y todos sus recursos.
 -Ayuda en el diseño de interfaces.
 -Ayuda en la creacion de estilos.
 
->Carlos
+>Martinez Ordaz Carlos Ernesto
 -Programacion de la pantalla Configuracion, Dispositivos y Fallas.
 -ayuda en ajustes de otras interfacez.
 -Programar la oreintacion de algunas ventanas.
