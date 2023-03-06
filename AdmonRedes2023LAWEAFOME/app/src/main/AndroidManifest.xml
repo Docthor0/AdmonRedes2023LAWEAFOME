@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdmnistracionDeRedes"
+        android:requestLegacyExternalStorage="true">
+
+        <activity
+            android:name=".JAgregarUsuario"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JInventario"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JaddInventario"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JresultadosInventario"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JDispositivo"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JaddDispositivo"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JresultadosDispositivos"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JPlanes"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JaddPlanes"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JresultadosPlanes"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JConfiguraciones"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JaddConfiguraciones"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JresultadosConfiguraciones"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JFallas"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JaddFallas"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JresultadosFallas"
+            android:exported="false"
+            android:parentActivityName=".menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AdmnistracionDeRedes.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
