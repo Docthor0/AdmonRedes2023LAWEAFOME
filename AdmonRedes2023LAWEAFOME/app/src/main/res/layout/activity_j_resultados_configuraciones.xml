@@ -29,6 +29,7 @@
         android:editable="false"
         android:ems="10"
         android:hint="ID"
+        android:maxLength="11"
         android:textColor="#FFFFFF"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
