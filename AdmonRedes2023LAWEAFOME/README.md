@@ -2,7 +2,7 @@
 
 Lista de Personas que trabajaron en el proyecto y en que areas trabajaron.
 
->Bustos Gonzalez Gildardo:
+>Bustos González Gildardo:
 -Administrador de la BD.
 -Creacion y adaptacion de los archivos PHP.
 -Diseño e implementacion de los bloques de codigo para la creacion de listas.
@@ -16,7 +16,7 @@ Lista de Personas que trabajaron en el proyecto y en que areas trabajaron.
 -Programacion de botones funcionales para la interfaz general.
 -Ayuda en la programacion de areas varias.
 
->Ulises
+>Cortés Medina Génesis Ulises
 -Programacion de la pantalla login.
 -Creacion del icono de la app.
 -Programacion de la pantalla registrarse.
