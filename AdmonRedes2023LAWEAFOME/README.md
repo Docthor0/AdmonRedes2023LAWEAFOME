@@ -9,7 +9,7 @@ Lista de Personas que trabajaron en el proyecto y en que area trabajo.
 -Ayuda en otras areas de programacion y diseño de areas varias.
 -Diseño de interfaces y recicler view.
 
->Omar
+>Guillen Servin Jesus Omar
 -Diseño de estilos.
 -Creacion de interfaces para el apartado de inventarios, login, registrarse y menus.
 -Creacion, diseño y programacion basica de la pantalla configuracion.
