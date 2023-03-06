@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    tools:context=".JresultadosPlanes">
+
+    <Button
+        android:id="@+id/botonBorrarPlanRP"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Borrar Plan"
+        android:textColor="#0094FE"
+        android:textSize="18dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#006200EE" />
+
+    <EditText
+        android:id="@+id/campoIDPlanBusquedaRP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="ID"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewBuscarPlanRP" />
+
+    <Button
+        android:id="@+id/botonModificarPlanRP"
+        android:layout_width="156dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#0094FE"
+        android:text="Modificar Plan"
+        android:textSize="18dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <EditText
+        android:id="@+id/campoNombrePlanBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Nombre"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/campoDescripcionPlanBusqueda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBuscarPlanRP"
+        android:layout_width="184dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toTopOf="@+id/campoIDPlanBusquedaRP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonReturnPlanRP"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/busquedaplan" />
+
+    <TextView
+        android:id="@+id/textViewPlanRP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Resultado"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/botonReturnPlanRP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonReturnPlanRP"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="←"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#006200EE" />
+
+    <EditText
+
+        android:id="@+id/campoDescripcionPlanBusqueda"
+        android:layout_width="215dp"
+        android:layout_height="180dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/botonModificarPlanRP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="501dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

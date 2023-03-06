@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    android:orientation="vertical"
+    tools:context=".JConfiguraciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/botonReturnC"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="←"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            app:cornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#006200EE" />
+
+        <TextView
+            android:id="@+id/textViewConfigC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="Configuración"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <Button
+            android:id="@+id/botonSoosC"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="."
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:visibility="invisible"
+            app:cornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#006200EE" />
+
+        <Button
+            android:id="@+id/botonBuscarC"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_marginEnd="32dp"
+            android:layout_gravity="center"
+            android:text="Buscar"
+            android:textColor="#0094FE"
+            android:textSize="18dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="@id/campoIDArticulo"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:strokeColor="#0094FE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/textView5C"
+            android:layout_width="121dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="32dp"
+            android:text="Nombre"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/view"
+            app:layout_constraintStart_toEndOf="@+id/view2"
+            app:layout_constraintTop_toTopOf="@+id/textView12Disp" />
+
+        <TextView
+            android:id="@+id/textView6C"
+            android:layout_width="85dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="Descripcion"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView12Disp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recVIConfiguracion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="10dp"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp">
+
+        <Button
+            android:id="@+id/botonListaC"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="168dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Act. Lista"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            app:cornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#006200EE" />
+
+        <Button
+            android:id="@+id/botonAñadirC"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#0094FE"
+            android:text="+  Añadir Plan"
+            android:textSize="18dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

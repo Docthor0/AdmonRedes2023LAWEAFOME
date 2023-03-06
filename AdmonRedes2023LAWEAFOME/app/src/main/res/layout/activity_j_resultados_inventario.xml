@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    tools:context=".JresultadosInventario">
+
+    <Button
+        android:id="@+id/botonBorrarArt"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Borrar artículo"
+        android:textColor="#0094FE"
+        android:textSize="18dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#006200EE" />
+
+    <EditText
+        android:id="@+id/campoIDArtBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="ID de artículo"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/campoNombreArtBusqueda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonModificarArt"
+        android:layout_width="152dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#0094FE"
+        android:text="Modificar artículo"
+        android:textSize="18dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/campoCantidadArtBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Cantidad"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/campoCantidadArtBusqueda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/campoNombreArtBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Nombre de artículo"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/campoCantidadArtBusqueda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBuscarArtR"
+        android:layout_width="184dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toTopOf="@+id/campoIDArtBusqueda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonReturnInvR"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/busquedaarticulo" />
+
+    <TextView
+        android:id="@+id/textViewInvR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Resultado"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/botonReturnInvR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonReturnInvR"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="←"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#006200EE" />
+
+    <EditText
+
+        android:id="@+id/campoDescripcionArtBusqueda"
+        android:layout_width="205dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="8dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Descripción de artículo"
+        android:textColor="#FFFFFF"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/botonModificarArt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
