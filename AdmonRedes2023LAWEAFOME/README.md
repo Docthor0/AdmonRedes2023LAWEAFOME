@@ -1,6 +1,6 @@
 # 2023-AdministracionRedes
 
-Lista de Personas que trabajaron en el proyecto y en que area trabajo.
+Lista de Personas que trabajaron en el proyecto y en que areas trabajaron.
 
 >Bustos Gonzalez Gildardo:
 -Administrador de la BD.
